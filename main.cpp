@@ -6,7 +6,6 @@ struct Doctor {
     string doctorName;
     string address;
 };
-
 struct Appointment {
     string appointmentId;
     string appointmentDate;
