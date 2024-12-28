@@ -34,9 +34,7 @@ private:
     string appointmentInvertedListFile = "appointment_inverted_list.txt";
     string DravailListFile ="availListDoc.txt";
     string ApavailListFile ="avalListApp.txt";
-
     vector<IndexEntry> drPrimaryIndex;
-
     vector<int> availList; // To store the positions of deleted records
     vector<IndexEntry> appointmentIndex;
 
