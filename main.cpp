@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 struct Doctor {
     string doctorId;
     string doctorName;
@@ -37,7 +36,6 @@ private:
     vector<IndexEntry> drPrimaryIndex;
     vector<int> availList; // To store the positions of deleted records
     vector<IndexEntry> appointmentIndex;
-
 
 
     void buildPrimaryIndex(const string& filePath, string IndexFile, vector<IndexEntry>& index, vector<int>& availList) {
