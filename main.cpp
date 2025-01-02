@@ -87,7 +87,6 @@ private:
         cout << "Primary index and AVAIL list rebuilt successfully.\n";
     }
 
-
     int findAppointmentPosition(const string& appointmentId) {
         auto it = lower_bound(appointmentIndex.begin(), appointmentIndex.end(), appointmentId,
                               [](const IndexEntry& entry, const string& id) {
